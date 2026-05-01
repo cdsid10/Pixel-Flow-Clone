@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6053594871857517770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8416786645248522916}
+  - component: {fileID: 6704373697324445940}
+  m_Layer: 0
+  m_Name: GridManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8416786645248522916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6053594871857517770}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6704373697324445940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6053594871857517770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adbd1c556da6b247a8b39f5a460d843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Scripts.Grid.GridManager
+  width: 10
+  height: 10
+  cubeSpacing: 1
+  spawnOffset: 0.5
+  cubePrefab: {fileID: 5808833825672092534, guid: 5b9cb2ef7c887784b998c060ffd09ebc, type: 3}
+  colorDataList:
+  - {fileID: 11400000, guid: 54c1e8d07772b6b43b41f7f0d9a7002f, type: 2}
+  - {fileID: 11400000, guid: 26d747a984847314196841f150d7aa77, type: 2}
+  - {fileID: 11400000, guid: d6d264b51c5d0e74e82d87d0b2390e87, type: 2}
+  colorTypePoolList: 
+  currentlyLeftCubeViews: []
+  useManualLevelLayout: 1
+  levelDataSO: {fileID: 11400000, guid: 76d9738b47571ee4ba1c27deaf5ac711, type: 2}
